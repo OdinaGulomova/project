@@ -1,0 +1,42 @@
+body {
+    color:red;
+    background-color:#402bfd ;
+    background-image: url(./nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{/*1*/
+    color:blue;
+    border: inherit;
+}
+
+h1.heading.heading{/*1+10+10=21*/
+    color:black;
+}
+
+body h1.heading.heading{/*1+1+10+10=22*/
+    color:blueviolet;
+}
+body h1.heading{/*1+1+10=12*/
+    color:black;
+}
+
+h1.heading{/*11*/
+    color:palevioletred;
+}
+h1{/*1*/
+    color:aquamarine;
+}
+
+.main_section{
+    border: 1px solid red;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+section{
+    border: 1px solid black;
+}
+p{
+    border:inherit;
+}
